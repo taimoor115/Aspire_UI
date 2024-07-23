@@ -1,3 +1,4 @@
+import About from "./component/About";
 import Carousel from "./component/Carousel";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
@@ -12,6 +13,7 @@ const App = () => {
       </div>
 
       <Carousel />
+      <About />
     </div>
   );
 };

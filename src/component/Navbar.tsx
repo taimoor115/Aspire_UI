@@ -1,3 +1,4 @@
+import { Logo } from "../assets/images";
 import { navItems } from "../lib/utils/contants";
 import Button from "./Button";
 import Drawer from "./Drawer";
@@ -6,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-3 py-5 md:px-2 lg:px-14">
       <div>
-        <img src="/images/Logo.png" alt="image" />
+        <img src={Logo} alt="image" />
       </div>
       <ul className="hidden md:flex md:gap-x-3 lg:flex lg:gap-x-10">
         {navItems.map((item, index) => (

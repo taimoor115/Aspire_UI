@@ -20,6 +20,9 @@ export default {
         subline: {
           DEFAULT: "#111827",
         },
+        paragraph: {
+          DEFAULT: "#FFFFFF",
+        },
       },
     },
     // fontSize: {

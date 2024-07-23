@@ -1,3 +1,4 @@
+import { hero } from "../assets/images";
 import Button from "./Button";
 
 const Hero = () => {
@@ -46,7 +47,7 @@ const Hero = () => {
         <div className="flex justify-center">
           <div className="mt-10 max-h-[300px] max-w-[300px] rounded-lg border-[6px] border-black md:mt-16 md:max-h-[500px] md:max-w-[830px] md:border-8 lg:mt-20 lg:max-h-[522] lg:max-w-[857px] lg:border-8">
             <img
-              src="/images/hero.png"
+              src={hero}
               alt="Hero image"
               className="h-full w-full border-b-0"
             />

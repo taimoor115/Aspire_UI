@@ -1,3 +1,4 @@
+import Carousel from "./component/Carousel";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
 
@@ -7,8 +8,10 @@ const App = () => {
       <div className="container">
         <Navbar />
         <hr className="mx-auto w-[90%]" />
+        <Hero />
       </div>
-      <Hero />
+
+      <Carousel />
     </div>
   );
 };

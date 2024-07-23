@@ -22,10 +22,10 @@ export default {
         },
       },
     },
-    fontSize: {
-      xxs: "9px",
-      xxl: ["60px", "70px"],
-    },
+    // fontSize: {
+    //   xxs: "9px",
+    //   xxl: ["60px", "70px"],
+    // },
     container: {
       center: true,
       padding: {

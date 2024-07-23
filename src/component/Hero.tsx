@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <div className="mt-3 flex justify-center">
           <div className="h-3.5 w-[90%] md:h-4 md:w-[570px] lg:h-[19px] lg:w-[613px]">
-            <p className="text-center text-[9px] font-normal text-subline opacity-50 md:text-xs lg:text-sm">
+            <p className="text-center text-[9px] font-normal text-subline opacity-50 md:text-[10px] lg:text-sm">
               Empowering Your Financial Journey through Customized Asset
               Management Services
             </p>

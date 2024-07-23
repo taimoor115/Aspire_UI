@@ -6,6 +6,9 @@ export default {
   },
   theme: {
     extend: {
+      gridTemplateColumns: {
+        "1-1.7": "1fr 1.7fr",
+      },
       fontSize: {
         large: {
           fontSize: "56px",
@@ -28,6 +31,12 @@ export default {
         },
         paragraph: {
           DEFAULT: "#FFFFFF",
+        },
+        brand: {
+          DEFAULT: "#0A85EA",
+        },
+        grayBackground: {
+          DEFAULT: "#EAEAEA",
         },
       },
     },

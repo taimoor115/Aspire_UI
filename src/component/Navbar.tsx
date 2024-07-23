@@ -5,7 +5,7 @@ import Drawer from "./Drawer";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-3 py-5 md:px-2 lg:px-14">
+    <nav className="flex select-none items-center justify-between px-3 py-5 md:px-2 lg:px-14">
       <div>
         <img src={Logo} alt="image" />
       </div>

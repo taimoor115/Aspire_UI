@@ -6,6 +6,12 @@ export default {
   },
   theme: {
     extend: {
+      fontSize: {
+        large: {
+          fontSize: "56px",
+          lineHeight: "60px",
+        },
+      },
       colors: {
         primary: {
           DEFAULT: "#0F0049",

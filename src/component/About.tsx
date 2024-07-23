@@ -2,7 +2,7 @@ import { about, arrowRightIcon } from "../assets/images";
 
 const About = () => {
   return (
-    <section className="container md:max-h-[750px] md:max-w-[1000px] lg:max-h-[1038px] lg:max-w-[1440px]">
+    <section className="container">
       <div className="md: bg-[#0A85EA] px-4 py-6 md:px-9 md:py-14 lg:px-40 lg:py-32">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-x-4">
           <div className="flex flex-col">
@@ -13,10 +13,10 @@ const About = () => {
               <p className="text-xs text-white md:text-sm lg:text-[16px] lg:font-medium lg:leading-[19.66px]">
                 Learn More
               </p>
-              <img src={arrowRightIcon} alt="" className="mb-1" />
+              <img src={arrowRightIcon} alt="arrow icon" className="mb-1" />
             </div>
           </div>
-          <div className="text-paragraph mt-5 space-y-2 text-xs md:mt-0 md:space-y-3 md:text-xs lg:mt-0 lg:space-y-4 lg:text-[16px] lg:font-normal lg:leading-[19.38px]">
+          <div className="text-paragraph mt-5 space-y-2 text-xs md:mt-0 md:space-y-3 md:text-xs lg:mt-0 lg:space-y-4 lg:text-base lg:font-normal lg:leading-[19.38px]">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

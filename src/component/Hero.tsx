@@ -45,11 +45,11 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="mt-10 max-h-[300px] max-w-[300px] rounded-lg border-[6px] border-black md:mt-16 md:max-h-[500px] md:max-w-[830px] md:border-8 lg:mt-20 lg:max-h-[522] lg:max-w-[857px] lg:border-8">
+          <div className="mt-10 rounded-lg md:mt-16 lg:mt-20">
             <img
               src={hero}
               alt="Hero image"
-              className="h-full w-full border-b-0"
+              className="h-full max-h-[300px] w-full max-w-[300px] rounded-t-3xl border-l-8 border-r-8 border-t-8 border-black md:max-h-[500px] md:max-w-[830px] lg:max-h-[522] lg:max-w-[857px]"
             />
           </div>
         </div>

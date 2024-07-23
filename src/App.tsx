@@ -2,6 +2,7 @@ import About from "./component/About";
 import Carousel from "./component/Carousel";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
+import Service from "./component/Service";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
 
       <Carousel />
       <About />
+      <Service />
     </div>
   );
 };

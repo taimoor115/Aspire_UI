@@ -1,6 +1,5 @@
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { carouselItem } from "../lib/utils/contants";
-import CarouselItem from "./CarouselItem";
 import { C1, C2, C3, C4 } from "../assets/images";
 
 const Carousel = () => {
@@ -13,6 +12,7 @@ const Carousel = () => {
     speed: 2000,
     slidesToShow: 4,
     slidesToScroll: 1,
+    initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
@@ -46,21 +46,18 @@ const Carousel = () => {
             Trusted by 1000k plus customers
           </p>
         </div>
-        <Slider
-          {...settings}
-          className="mt-14 flex items-center py-1 md:gap-x-6 md:py-2 lg:gap-x-8 lg:py-3"
-        >
+        <Slider {...settings} className="mt-14">
           <div>
-            {<img className="h-6 object-cover py-1 md:h-8 lg:h-9" src={C1} />}
+            <img className="h-6 object-cover py-1 md:h-8 lg:h-9" src={C1} />
           </div>
           <div>
-            {<img className="h-6 object-cover py-1 md:h-8 lg:h-9" src={C2} />}
+            <img className="h-6 object-cover py-1 md:h-8 lg:h-9" src={C2} />
           </div>
           <div>
-            {<img className="h-6 object-cover py-1 md:h-8 lg:h-9" src={C3} />}
+            <img className="h-6 object-cover py-1 md:h-8 lg:h-9" src={C3} />
           </div>
           <div>
-            {<img className="h-6 object-cover py-1 md:h-8 lg:h-9" src={C4} />}
+            <img className="h-6 object-cover py-1 md:h-8 lg:h-9" src={C4} />
           </div>
         </Slider>
       </div>

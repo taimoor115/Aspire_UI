@@ -1,4 +1,5 @@
-import { about, arrowRightIcon } from "../assets/images";
+import { arrowRightIcon } from "../assets/icon";
+import { about } from "../assets/images";
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
               <img src={arrowRightIcon} alt="arrow icon" className="mb-1" />
             </div>
           </div>
-          <div className="text-paragraph mt-5 space-y-2 text-xs md:mt-0 md:space-y-3 md:text-xs lg:mt-0 lg:space-y-4 lg:text-base lg:font-normal lg:leading-[19.38px]">
+          <div className="mt-5 space-y-2 text-xs text-paragraph md:mt-0 md:space-y-3 md:text-xs lg:mt-0 lg:space-y-4 lg:text-base lg:font-normal lg:leading-[19.38px]">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

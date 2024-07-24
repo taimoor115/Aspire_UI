@@ -1,4 +1,4 @@
-import { rightArrowColored } from "../assets/images";
+import { rightArrowColored } from "../assets/icon";
 import { teamData } from "../lib/utils/contants";
 import Button from "./Button";
 import TeamCard from "./TeamCard";
@@ -33,7 +33,7 @@ const Team = () => {
             />
           ))}
         </div>
-        <div className="lg:grid-cols-1-1.7 md:grid-cols-1-1.7 bg-grayBackground grid grid-cols-1 px-3 py-16 md:px-6 md:py-16 lg:px-12 lg:py-16">
+        <div className="grid grid-cols-1 bg-grayBackground px-3 py-16 md:grid-cols-1-1.7 md:px-6 md:py-16 lg:grid-cols-1-1.7 lg:px-12 lg:py-16">
           <div className="text-xl font-medium text-primary md:text-2xl lg:pl-3 lg:text-3xl lg:leading-[34.41px]">
             Join our team
           </div>

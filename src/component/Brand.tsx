@@ -4,7 +4,7 @@ const Brand = () => {
   return (
     <div className="container">
       <div className="select-none p-2 md:p-16 lg:p-24">
-        <div className="bg-brand flex flex-col rounded-[10px]">
+        <div className="flex flex-col rounded-[10px] bg-brand">
           <div className="mt-16 md:mt-20 lg:mt-24">
             <p className="text-center font-serif text-3xl font-bold text-white md:px-16 md:text-5xl lg:px-20 lg:text-[56px] lg:leading-[60px]">
               Get Started with Aspire Today
@@ -27,7 +27,7 @@ const Brand = () => {
                 className="ps-2 text-sm focus:outline-none md:text-base"
               />
 
-              <Button className="border-1 whitespace-nowrap border-secondary px-2 py-1.5 text-[9px] md:px-4 md:py-1.5 md:text-lg lg:py-2 lg:text-lg">
+              <Button className="border-1 whitespace-nowrap border-secondary px-2 py-1.5 text-[9px] md:px-4 md:py-1.5 md:text-sm lg:py-2 lg:text-sm">
                 Get Started
               </Button>
             </div>

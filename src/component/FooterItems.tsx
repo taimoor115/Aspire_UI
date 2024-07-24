@@ -10,7 +10,7 @@ const FooterItems = ({ title, items }: FooterItemsProps) => {
         {items.map((item) => (
           <li
             key={item.id}
-            className="whitespace-nowrap text-xs font-normal opacity-50 md:text-xs lg:text-base lg:leading-[19.38px]"
+            className="whitespace-nowrap text-[10px] font-normal opacity-50 md:text-xs lg:text-base lg:leading-[19.38px]"
           >
             {item.item}
           </li>

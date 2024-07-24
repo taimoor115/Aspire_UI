@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex justify-center">
           <div className="w-[90%] md:w-[700px] lg:w-[835px]">
             <h1 className="font-serif text-lg font-bold leading-9 md:text-[48px] md:leading-[48px] lg:text-[56px] lg:leading-[60px]">
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center text-center">
                 Multipurpose Website Templates
                 <span>That boost your sales</span>
               </div>
@@ -33,7 +33,7 @@ const Hero = () => {
               className="ps-2 text-sm focus:outline-none md:text-base"
             />
 
-            <Button className="border-1 whitespace-nowrap border-secondary px-2 py-1.5 text-[9px] md:px-4 md:py-1.5 md:text-lg lg:py-2 lg:text-lg">
+            <Button className="border-1 whitespace-nowrap border-secondary px-2 py-1.5 text-[9px] md:px-4 md:py-1.5 md:text-sm lg:py-2 lg:text-sm">
               Get Started
             </Button>
           </div>

@@ -5,8 +5,7 @@ import C4 from "./C4.png";
 import hero from "./hero.png";
 import about from "./about.png";
 import Logo from "./Logo.png";
-import arrowRightIcon from "./arrowRightIcon.png";
-import rightArrowColored from "./rightArrowColored.png";
+
 import cardIcon1 from "./cardIcon1.png";
 import cardIcon2 from "./cardIcon2.png";
 import cardIcon3 from "./cardIcon3.png";
@@ -19,7 +18,6 @@ import person5 from "./person5.png";
 import person6 from "./person6.png";
 import person7 from "./person7.png";
 import person8 from "./person8.png";
-import downArrow from "./downArrow.png";
 
 export {
   C1,
@@ -29,7 +27,6 @@ export {
   hero,
   about,
   Logo,
-  arrowRightIcon,
   cardIcon1,
   cardIcon2,
   cardIcon3,
@@ -42,6 +39,4 @@ export {
   person6,
   person7,
   person8,
-  rightArrowColored,
-  downArrow,
 };

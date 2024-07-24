@@ -1,4 +1,4 @@
-import { downArrow } from "../assets/images";
+import { downArrow } from "../assets/icon";
 import { QuestionListProps } from "../lib/utils/types";
 
 const QuestionList = ({ question }: QuestionListProps) => {

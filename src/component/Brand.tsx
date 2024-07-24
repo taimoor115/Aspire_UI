@@ -18,18 +18,20 @@ const Brand = () => {
               in minutes.
             </p>
           </div>
-          {/* <div className="mt-10 flex justify-center">
-            <div className="flex justify-between rounded-full border border-border bg-white px-4 py-1 shadow shadow-border">
+          <div className="mt-10 flex justify-center md:mt-[42px] lg:mt-[50px]">
+            <div className="flex rounded-full border-border bg-white px-2 py-2 shadow md:px-3 md:py-2 lg:px-6 lg:py-2">
               <input
                 type="search"
-                className="focus:outline-none"
-                placeholder="Enter your email"
+                name="search"
+                placeholder="Enter your work email"
+                className="ps-2 text-sm focus:outline-none md:text-base"
               />
-              <Button className="font-sm whitespace-nowrap px-1 py-1 md:px-4 md:py-3 lg:px-4 lg:py-3">
+
+              <Button className="border-1 whitespace-nowrap border-secondary px-2 py-1.5 text-[9px] md:px-4 md:py-1.5 md:text-lg lg:py-2 lg:text-lg">
                 Get Started
               </Button>
             </div>
-          </div> */}
+          </div>
           <div className="flex justify-center">
             <p className="mb-14 mt-5 text-xs text-white md:mb-16 lg:mb-20">
               No credit card required

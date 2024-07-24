@@ -19,6 +19,7 @@ import person5 from "./person5.png";
 import person6 from "./person6.png";
 import person7 from "./person7.png";
 import person8 from "./person8.png";
+import downArrow from "./downArrow.png";
 
 export {
   C1,
@@ -42,4 +43,5 @@ export {
   person7,
   person8,
   rightArrowColored,
+  downArrow,
 };

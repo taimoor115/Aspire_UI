@@ -3,6 +3,7 @@ import Brand from "./component/Brand";
 import Carousel from "./component/Carousel";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
+import Queries from "./component/Queries";
 import Service from "./component/Service";
 import Team from "./component/Team";
 
@@ -20,6 +21,7 @@ const App = () => {
       <Service />
       <Brand />
       <Team />
+      <Queries />
     </div>
   );
 };

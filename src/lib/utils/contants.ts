@@ -76,3 +76,14 @@ export const teamData = [
   { id: 6, name: "Auther", url: person7, desgination: "Engineer" },
   { id: 7, name: "Davis", url: person8, desgination: "Engineer" },
 ];
+
+export const questionsData = [
+  { id: 0, question: "Smod tempor incididunt ut labore et dolore" },
+  { id: 1, question: "Quis nostrud exercitation ullamco laboris" },
+  { id: 2, question: "Woluptate velit esse cillum dolore eu fugiat nulla" },
+  { id: 3, question: "Excepteur sint occaecat cupidatat non proiden" },
+  { id: 4, question: "Ut enim ad minim veniam" },
+  { id: 5, question: "Wisi ut aliquip ex ea commodo consequat" },
+  { id: 6, question: "Duis aute irure dolor in reprehenderi" },
+  { id: 7, question: "Excepteur sint occaecat cupidatat non proident" },
+];

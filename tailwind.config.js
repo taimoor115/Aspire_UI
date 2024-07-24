@@ -38,6 +38,12 @@ export default {
         grayBackground: {
           DEFAULT: "#EAEAEA",
         },
+        lightGray: {
+          DEFAULT: "#F6F5F8",
+        },
+        fadeGray: {
+          DEFAULT: "#111827",
+        },
       },
     },
     // fontSize: {

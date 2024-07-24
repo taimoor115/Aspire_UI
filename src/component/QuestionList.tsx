@@ -1,8 +1,5 @@
 import { downArrow } from "../assets/images";
-
-interface QuestionListProps {
-  question: string;
-}
+import { QuestionListProps } from "../lib/utils/types";
 
 const QuestionList = ({ question }: QuestionListProps) => {
   return (

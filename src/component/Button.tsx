@@ -1,16 +1,12 @@
-import { ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
+import { ButtonProps } from "../lib/utils/types";
 
-interface ButtonProps {
-  children: ReactNode;
-  className?: string;
-}
 const Button = ({ children, className }: ButtonProps) => {
   return (
     <button
       className={twMerge(
-        "text-white bg-secondary text-md rounded-full",
-        className
+        "text-md rounded-full bg-secondary text-white",
+        className,
       )}
     >
       {children}

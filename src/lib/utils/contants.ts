@@ -87,3 +87,38 @@ export const questionsData = [
   { id: 6, question: "Duis aute irure dolor in reprehenderi" },
   { id: 7, question: "Excepteur sint occaecat cupidatat non proident" },
 ];
+
+export const footerData = [
+  {
+    id: 0,
+    title: "Company",
+    children: [
+      { id: 1, item: "About" },
+      { id: 2, item: "Pricing" },
+      { id: 3, item: "Jobs" },
+      { id: 4, item: "Blog" },
+      { id: 5, item: "Career" },
+    ],
+  },
+  {
+    id: 1,
+    title: "Product",
+    children: [
+      { id: 1, item: "Sales Software" },
+      { id: 2, item: "Features" },
+      { id: 3, item: "Privacy and Security" },
+      { id: 4, item: "Market Place" },
+      { id: 5, item: "API" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Help Center",
+    children: [
+      { id: 1, item: "Community" },
+      { id: 2, item: "Knowledge Base" },
+      { id: 3, item: "Academy" },
+      { id: 4, item: "Support" },
+    ],
+  },
+];

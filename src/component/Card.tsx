@@ -1,9 +1,5 @@
-interface CardProps {
-  icon: string;
-  title: string;
-  description: string;
-  id: number;
-}
+import { CardProps } from "../lib/utils/types";
+
 const Card = ({ icon, title, description, id }: CardProps) => {
   return (
     <div

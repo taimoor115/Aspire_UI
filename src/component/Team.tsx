@@ -34,7 +34,7 @@ const Team = () => {
           ))}
         </div>
         <div className="lg:grid-cols-1-1.7 md:grid-cols-1-1.7 bg-grayBackground grid grid-cols-1 px-3 py-16 md:px-6 md:py-16 lg:px-12 lg:py-16">
-          <div className="text-xl font-medium text-primary md:text-2xl lg:text-3xl lg:leading-[34.41px]">
+          <div className="text-xl font-medium text-primary md:text-2xl lg:pl-3 lg:text-3xl lg:leading-[34.41px]">
             Join our team
           </div>
           <div>

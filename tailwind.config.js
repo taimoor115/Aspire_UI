@@ -8,6 +8,7 @@ export default {
     extend: {
       gridTemplateColumns: {
         "1-1.7": "1fr 1.7fr",
+        "1.2-1": "1.2fr 1fr",
       },
       fontSize: {
         large: {

@@ -1,9 +1,4 @@
-interface TeamCardProps {
-  //   id: number;
-  name: string;
-  url: string;
-  designation: string;
-}
+import { TeamCardProps } from "../lib/utils/types";
 
 const TeamCard = ({ name, designation, url }: TeamCardProps) => {
   return (
